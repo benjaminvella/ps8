@@ -13,7 +13,8 @@ const defaultFileIfFolder = "index.html";
 
 /* Dict associating files' extension to a MIME type browsers understand. The reason why this is needed is that only
 ** the file's content is sent to the browser, so it cannot know for sure what kind of file it was to begin with,
-** and so how to interpret it. To help, we will send the type of file in addition to its content. */
+** and so how to interpret it. To help, we will send the type of file in addition to its content.
+** Note that the list is not exhaustive, you may need it to add some other MIME types (google is your friend). */
 const mimeTypes = {
     '.ico': 'image/x-icon',
     '.html': 'text/html',
