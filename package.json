@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/benjaminvella/ps8/issues"
   },
-  "homepage": "https://github.com/benjaminvella/ps8#readme"
+  "homepage": "https://github.com/benjaminvella/ps8#readme",
+  "dependencies": {
+    "socket.io": "^4.7.4"
+  }
 }
